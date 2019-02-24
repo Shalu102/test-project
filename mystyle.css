@@ -1,0 +1,57 @@
+
+body{
+  background-image: linear-gradient(-90deg,LightSalmon,yellow);
+
+   }
+@media screen and (max-width: 480px) {
+body {
+  background-image: linear-gradient(-90deg,Wheat ,green);
+}
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  Height: 100%;
+  position: fixed;
+background-image: linear-gradient(-90deg,LightSalmon, ForestGreen);
+}
+
+ul li a {
+  display: block ;
+  color: wheat;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family:verdana;
+  font-size: 1.5vw;
+    text-align: center;
+}
+
+/* Change the link color on hover */
+ul li a:hover {
+  background-color: #555;
+  color: white;
+}
+div {
+       margin-left:20%;
+       padding:1px 16px;
+       height:100%;
+       color: #000080;
+       font-family: cursive;
+       font-size: 1.2vw;
+      }
+.text {
+  color: #000080;
+  font-family: cursive;
+  font-size: 1.2vw;
+  overflow: auto;
+  }
+  .wrapper {overflow: auto;}
+  #rcorners2 {
+    border-radius: 25px;
+    border: 2px solid red;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
